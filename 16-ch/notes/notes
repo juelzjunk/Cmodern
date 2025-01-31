@@ -1,0 +1,8 @@
+A structure is a collection of values (memebers), possibly
+different types.
+
+A union similar to struct, exceot memebers share same storage.
+union can store one memeber at a time. not all simultaneously.
+
+An enumeration is an integer type whose values are named by 
+the programmer.

@@ -1,0 +1,1 @@
+Modify inventory.c by making inventory and num_parts local to the main function.
