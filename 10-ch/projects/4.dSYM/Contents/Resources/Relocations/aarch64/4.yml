@@ -1,0 +1,18 @@
+---
+triple:          'arm64-apple-darwin'
+binary-path:     '4'
+relocations:
+  - { offsetInCU: 0x26, offset: 0x26, size: 0x8, addend: 0x0, symName: _main, symObjAddr: 0x0, symBinAddr: 0x10000347C, symSize: 0x24 }
+  - { offsetInCU: 0x4D, offset: 0x4D, size: 0x8, addend: 0x0, symName: _num_in_rank, symBinAddr: 0x100008004, symSize: 0x0 }
+  - { offsetInCU: 0x75, offset: 0x75, size: 0x8, addend: 0x0, symName: _num_in_suit, symBinAddr: 0x100008038, symSize: 0x0 }
+  - { offsetInCU: 0x96, offset: 0x96, size: 0x8, addend: 0x0, symName: _royalflush, symBinAddr: 0x10000804C, symSize: 0x0 }
+  - { offsetInCU: 0xB2, offset: 0xB2, size: 0x8, addend: 0x0, symName: _straight, symBinAddr: 0x10000804D, symSize: 0x0 }
+  - { offsetInCU: 0xC7, offset: 0xC7, size: 0x8, addend: 0x0, symName: _flush, symBinAddr: 0x100008000, symSize: 0x0 }
+  - { offsetInCU: 0xDC, offset: 0xDC, size: 0x8, addend: 0x0, symName: _four, symBinAddr: 0x100008001, symSize: 0x0 }
+  - { offsetInCU: 0xF1, offset: 0xF1, size: 0x8, addend: 0x0, symName: _three, symBinAddr: 0x10000804E, symSize: 0x0 }
+  - { offsetInCU: 0x106, offset: 0x106, size: 0x8, addend: 0x0, symName: _pairs, symBinAddr: 0x100008048, symSize: 0x0 }
+  - { offsetInCU: 0x10F, offset: 0x10F, size: 0x8, addend: 0x0, symName: _main, symObjAddr: 0x0, symBinAddr: 0x10000347C, symSize: 0x24 }
+  - { offsetInCU: 0x128, offset: 0x128, size: 0x8, addend: 0x0, symName: _read_cards, symObjAddr: 0x24, symBinAddr: 0x1000034A0, symSize: 0x3A0 }
+  - { offsetInCU: 0x1AE, offset: 0x1AE, size: 0x8, addend: 0x0, symName: _analyze_hand, symObjAddr: 0x59C, symBinAddr: 0x100003A18, symSize: 0x2C8 }
+  - { offsetInCU: 0x1EE, offset: 0x1EE, size: 0x8, addend: 0x0, symName: _print_result, symObjAddr: 0x864, symBinAddr: 0x100003CE0, symSize: 0x1D8 }
+...
